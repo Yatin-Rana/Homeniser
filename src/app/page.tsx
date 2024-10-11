@@ -157,8 +157,8 @@ export default function Home() {
 
       {/* how it works */}
       <div className="h-screen flex">
-      <div className="w-[50%]  flex justify-center items-center relative">
-      <Image
+        <div className="w-[50%]  flex justify-center items-center relative">
+          <Image
             src='/images/working.png'
             alt="working"
             width={600}
@@ -166,63 +166,63 @@ export default function Home() {
             className="mt-[5vh] "
 
           />
-</div>
-  {/* second half */}
-  <div className="w-1/2 overflow-y-auto ">
-    <div className="max-w-2xl mx-auto py-16 px-8">
-      <h2 className="text-5xl font-bold text-gray-800 mb-12 text-center">
-        How <span className="text-[#142288]">homeniser</span> works?
-      </h2>
-
-      <div className="space-y-8">
-        {/* First pointer */}
-        <div className="flex items-start bg-white p-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
-          <div className="flex-shrink-0 w-12 h-12 bg-[#142288] text-white rounded-full flex items-center justify-center text-2xl font-bold mr-6">
-            1
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-3">
-              Call us anytime 24/7
-            </h3>
-            <p className="text-gray-600 text-base leading-relaxed">
-              Contact us directly, and we'll swiftly connect you with our home care professionals who are ready to assist you at any time.
-            </p>
-          </div>
         </div>
+        {/* second half */}
+        <div className="w-1/2 overflow-y-auto ">
+          <div className="max-w-2xl mx-auto py-16 px-8">
+            <h2 className="text-5xl font-bold text-gray-800 mb-12 text-center">
+              How <span className="text-[#142288]">homeniser</span> works?
+            </h2>
 
-        {/* Second pointer */}
-        <div className="flex items-start bg-white p-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
-          <div className="flex-shrink-0 w-12 h-12 bg-[#142288] text-white rounded-full flex items-center justify-center text-2xl font-bold mr-6">
-            2
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-3">
-              Schedule service
-            </h3>
-            <p className="text-gray-600 text-base leading-relaxed">
-              Our expert team will answer your questions and offer flexible appointment times that suit your schedule.
-            </p>
-          </div>
-        </div>
+            <div className="space-y-8">
+              {/* First pointer */}
+              <div className="flex items-start bg-white p-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
+                <div className="flex-shrink-0 w-12 h-12 bg-[#142288] text-white rounded-full flex items-center justify-center text-2xl font-bold mr-6">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                    Call us anytime 24/7
+                  </h3>
+                  <p className="text-gray-600 text-base leading-relaxed">
+                    Contact us directly, and we&apos;ll swiftly connect you with our home care professionals who are ready to assist you at any time.
+                  </p>
+                </div>
+              </div>
 
-        {/* Third pointer */}
-        <div className="flex items-start bg-white p-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
-          <div className="flex-shrink-0 w-12 h-12 bg-[#142288] text-white rounded-full flex items-center justify-center text-2xl font-bold mr-6">
-            3
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-3">
-              Your request is completed
-            </h3>
-            <p className="text-gray-600 text-base leading-relaxed">
-              Upon arrival, our technician will diagnose the issue, provide an estimate, and if you approve, promptly begin the work.
-            </p>
+              {/* Second pointer */}
+              <div className="flex items-start bg-white p-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
+                <div className="flex-shrink-0 w-12 h-12 bg-[#142288] text-white rounded-full flex items-center justify-center text-2xl font-bold mr-6">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                    Schedule service
+                  </h3>
+                  <p className="text-gray-600 text-base leading-relaxed">
+                    Our expert team will answer your questions and offer flexible appointment times that suit your schedule.
+                  </p>
+                </div>
+              </div>
+
+              {/* Third pointer */}
+              <div className="flex items-start bg-white p-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105">
+                <div className="flex-shrink-0 w-12 h-12 bg-[#142288] text-white rounded-full flex items-center justify-center text-2xl font-bold mr-6">
+                  3
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                    Your request is completed
+                  </h3>
+                  <p className="text-gray-600 text-base leading-relaxed">
+                    Upon arrival, our technician will diagnose the issue, provide an estimate, and if you approve, promptly begin the work.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
     </div>
 

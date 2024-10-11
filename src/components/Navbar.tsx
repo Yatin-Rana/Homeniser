@@ -5,7 +5,7 @@ import { useState } from 'react';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const NavLink = ({ href, children }:any) => (
+  const NavLink = ({ href, children }: any) => (
     <Link href={href} className="px-3 py-2 rounded-md transition-all duration-200 ease-in-out hover:scale-105 hover:shadow-md hover:bg-[#2a3baa]">
       {children}
     </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex space-x-4 text-xl">
             <NavLink href="/">Home</NavLink>
-            <NavLink href="/aboutus">About Us</NavLink>
+            <NavLink href="/about">About Us</NavLink>
             <NavLink href="/services">Services</NavLink>
             <NavLink href="/contact">Contact</NavLink>
           </div>
@@ -42,9 +42,9 @@ const Navbar = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <NavLink href="/">Home</NavLink>
-            <NavLink href="/aboutus">About Us</NavLink>
+            <NavLink href="/about">About Us</NavLink>
             <NavLink href="/services">Services</NavLink>
-            <NavLink href="/contactus">Contact</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
           </div>
         </div>
       )}

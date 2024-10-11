@@ -63,7 +63,7 @@ const Contact = () => {
             <div className="md:w-1/2 p-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">How Can We Help?</h2>
               <p className="text-gray-600 mb-8">
-                At Homeniser, we're committed to providing top-notch home services. Whether you need repairs, maintenance, or have questions about our services, we're here to assist you.
+                At Homeniser, we&apos;re committed to providing top-notch home services. Whether you need repairs, maintenance, or have questions about our services, we&apos;re here to assist you.
               </p>
               <div className="space-y-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
