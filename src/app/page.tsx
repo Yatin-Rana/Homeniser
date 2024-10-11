@@ -135,17 +135,14 @@ export default function Home() {
             width={700}
             height={800}
             className="mt-[12vh] "
-
           />
         </div>
       </div>
       <div className=" md:h-screen  flex-col w-[80%] m-auto ">
         <div className="flex flex-col items-center ">
           <div className="font-semibold text-5xl mt-[10vh] ">Our Services</div>
-          <div className="text-xl mt-4 text-[#545971]">You have problem with leaking  pipes,broken tiles, lost keys or</div>
+          <div className="text-xl mt-4 text-[#545971]">You have problem with leaking pipes, broken tiles, lost keys, or</div>
           <div className="text-xl text-[#545971] ">want to tidy up the trees around you, of course you need our help!</div>
-
-
         </div>
 
         {/* cards for service */}
@@ -154,17 +151,15 @@ export default function Home() {
         </div>
       </div>
 
-
       {/* how it works */}
       <div className="h-screen flex">
-        <div className="w-[50%]  flex justify-center items-center relative">
+        <div className="w-[50%] flex justify-center items-center relative">
           <Image
             src='/images/working.png'
             alt="working"
             width={600}
             height={700}
             className="mt-[5vh] "
-
           />
         </div>
         {/* second half */}
@@ -181,12 +176,8 @@ export default function Home() {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                    Call us anytime 24/7
-                  </h3>
-                  <p className="text-gray-600 text-base leading-relaxed">
-                    Contact us directly, and we&apos;ll swiftly connect you with our home care professionals who are ready to assist you at any time.
-                  </p>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Select the service</h3>
+                  <p className="text-gray-600">We have several different services for your household needs. You can choose the one that matches your needs.</p>
                 </div>
               </div>
 
@@ -196,12 +187,8 @@ export default function Home() {
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                    Schedule service
-                  </h3>
-                  <p className="text-gray-600 text-base leading-relaxed">
-                    Our expert team will answer your questions and offer flexible appointment times that suit your schedule.
-                  </p>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Contact us</h3>
+                  <p className="text-gray-600">You can call or email us. We’ll respond quickly, discuss the issue, and schedule an appointment.</p>
                 </div>
               </div>
 
@@ -211,20 +198,14 @@ export default function Home() {
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                    Your request is completed
-                  </h3>
-                  <p className="text-gray-600 text-base leading-relaxed">
-                    Upon arrival, our technician will diagnose the issue, provide an estimate, and if you approve, promptly begin the work.
-                  </p>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Get it done</h3>
+                  <p className="text-gray-600">Our skilled professionals will arrive at your home, equipped with everything needed to provide excellent service and complete the task efficiently.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
-
   );
 }

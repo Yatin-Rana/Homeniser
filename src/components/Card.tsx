@@ -1,6 +1,6 @@
 // components/Card.tsx
 'use client'
-import React, { useState } from 'react';
+import React from 'react';
 import { IconType } from 'react-icons';
 import { MdOutlinePlumbing, MdBathroom } from "react-icons/md";
 import { GiAutoRepair, GiMoldova, GiDoorHandle } from "react-icons/gi";
@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({ Icon, title, description }) => {
 };
 
 const CardContainer: React.FC = () => {
-    const [cards, setCards] = useState<CardProps[]>([
+    const cards: CardProps[] = [
         {
             Icon: MdOutlinePlumbing,
             title: 'Plumbing Services',
@@ -58,7 +58,7 @@ const CardContainer: React.FC = () => {
             title: 'Door Installation',
             description: 'Professional door installation and repair services.'
         }
-    ]);
+    ];
 
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 p-4 sm:p-6 md:p-8">

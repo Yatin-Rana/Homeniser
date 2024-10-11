@@ -2,10 +2,15 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
+interface NavLinkProps {
+  href: string;
+  children: React.ReactNode;
+}
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const NavLink = ({ href, children }: any) => (
+  const NavLink = ({ href, children }: NavLinkProps) => (
     <Link href={href} className="px-3 py-2 rounded-md transition-all duration-200 ease-in-out hover:scale-105 hover:shadow-md hover:bg-[#2a3baa]">
       {children}
     </Link>
