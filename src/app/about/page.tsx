@@ -34,7 +34,7 @@ const About: React.FC = () => {
                         <div className="flex flex-col justify-center">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Story</h2>
                             <p className="text-lg text-gray-600 leading-relaxed">
-                                Homeniser was founded in 2019 by <strong>Vikramjeet Singh</strong> with a mission to bridge the gap between quality and affordability in home services. We began as a small team dedicated to providing reliable services, and have since grown into a trusted name in the London area.
+                                Homeniser was founded in 2019 by <strong>vik</strong> with a mission to bridge the gap between quality and affordability in home services. We began as a small team dedicated to providing reliable services, and have since grown into a trusted name in the London area.
                             </p>
                         </div>
                         <div className="relative h-64 md:h-auto">

@@ -36,7 +36,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-xl font-semibold mb-4 border-b border-blue-400 pb-2">Our Services</h4>
                         <ul className="space-y-2">
-                            {['Plumbing', 'Electrical', 'Cleaning', 'Painting', 'Carpentry', 'HVAC'].map((service) => (
+                            {['Plumbing', 'Electrical', 'Painting', 'Carpentry'].map((service) => (
                                 <li key={service}>
                                     <Link href={`/services/${service.toLowerCase()}`} className="hover:text-blue-400 transition-colors flex items-center">
                                         <span className="mr-2">•</span> {service}
@@ -52,15 +52,15 @@ const Footer = () => {
                         <ul className="space-y-2">
                             <li className="flex items-center">
                                 <FaMapMarkerAlt className="mr-2 text-blue-400" />
-                                <span>123 Home Street, City, Country</span>
+                                <span>22 Flempton Road London E10 7NH</span>
                             </li>
                             <li className="flex items-center">
                                 <FaPhoneAlt className="mr-2 text-blue-400" />
-                                <span>(123) 456-7890</span>
+                                <span>0300 010 300</span>
                             </li>
                             <li className="flex items-center">
                                 <FaEnvelope className="mr-2 text-blue-400" />
-                                <span>info@homeniser.com</span>
+                                <span>homeniser@gmail.com</span>
                             </li>
                             <li className="flex items-center">
                                 <FaClock className="mr-2 text-blue-400" />

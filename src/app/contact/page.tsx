@@ -17,21 +17,21 @@ const Contact = () => {
                   <FaPhoneAlt className="text-2xl mr-4" />
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p>(123) 456-7890</p>
+                    <p>0300 010 300</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <FaEnvelope className="text-2xl mr-4" />
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p>info@homeniser.com</p>
+                    <p>homeniser@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <FaMapMarkerAlt className="text-2xl mr-4" />
                   <div>
                     <h3 className="font-medium">Address</h3>
-                    <p>123 Home Street, City, Country</p>
+                    <p>22 Flempton Road London E10 7NH</p>
                   </div>
                 </div>
                 <div className="flex items-center">
